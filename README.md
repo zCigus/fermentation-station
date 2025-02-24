@@ -1,8 +1,3 @@
 # Fermantation Station
 ## Descrizione
-Il progetto si propone di realizzare una "Fermentation Station" ovvero una cella adibita alla fermentazione/lievitazione che permetta di impostare un obiettivo per temperatura e umidità interna da mantenere costanti attraverso un feedback loop. Il sistema sarà gestito da un Elegoo UNO R3, la misurazione di umidità e temperatura viene effettuata con l'utilizzo di un sensore DHT11, sono presenti un display e pulsanti fisici per il controllo e l'impostazione degli obiettivi di temperatura e umidità. Il feedback loop inoltre viene gestito con una tecnica di controllo PID (proporzionale-integrale-derivativo).
-Il PID è un meccanismo che permette di controllare con precisione un sistema fisico cercando di mantenere una variabile (detta "process variable") il più vicino possibile ad un valore desiderato (setpoint).
-
-## Librerie utilizzate
-- DHT sensor library
-- Adafruit Unified Sensor (necessaria per DHT sensor library)
+Il progetto si propone di realizzare una "Fermentation Station" ovvero una cella adibita alla fermentazione/lievitazione di prodotti da forno, che permetta di impostare un obiettivo per temperatura e umidità interna, da mantenere costanti attraverso un feedback loop gestito con la tecnica di controllo PID (proporzionale-integrale-derivativo). Il sistema è gestito da un Elegoo UNO R3, la misurazione di umidità e temperatura viene effettuata con un sensore DHT11. Per modificare l'umidità e la temperatura interna alla cella sono presenti un tappetino riscaldante corporeo controllato da un relay, ed un modulo Groove "Water Atomization" che permette di vaporizzare l'acqua attraverso ultrasuoni. Sono presenti inoltre un display LCD I2C, pulsanti fisici per il controllo e l'impostazione degli obiettivi ed una ventola per rendere uniforme la distribuzione di unidità e temperatura.
